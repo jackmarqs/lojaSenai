@@ -1,0 +1,28 @@
+h1,h2{
+    margin-bottom: 75px;
+    margin-left: 75px;
+}
+.items{
+    margin: 0 100px 0 100px;
+    display: flex;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.esquerda{
+    margin-right: 35px;
+    background-color: rgb(148, 216, 216);
+    border-radius: 1%;
+}
+.centro{
+    margin-right: 35px;
+    background-color: rgb(189, 154, 223);
+    border-radius: 1%;
+}
+.direita{
+    background-color: rgb(255, 216, 202);
+    border-radius: 1%;
+}
+.back{
+    opacity: 0.1;
+    position: absolute;
+}
